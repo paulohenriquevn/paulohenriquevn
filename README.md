@@ -37,7 +37,6 @@ An agent is a file: drop it in `agents/` and it gets an HTTP route, token stream
 |---|---|
 | [**gitsafety**](https://github.com/paulohenriquevn/gitsafety) | Stops you from committing an API key — git repos, loose folders and Jupyter notebooks. On PyPI. |
 | [**m2js**](https://github.com/paulohenriquevn/m2js) | CLI + VS Code extension that turns TypeScript/JavaScript into LLM-optimized Markdown. On npm. |
-| [**loop-pentest-audit**](https://github.com/paulohenriquevn/loop-pentest-audit) | Autonomous 7-phase penetration-testing lab for Claude Code (OWASP Testing Guide), producing CVSS-scored findings. |
 
 ---
 
