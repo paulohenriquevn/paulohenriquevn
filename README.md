@@ -1,62 +1,44 @@
 <div align="center">
 
-# Hi, I'm Paulo Henrique Vieira 👋
+# Paulo Henrique Vieira
 
-### AI & Agent Engineer — building autonomous laboratories for Claude Code
+### AI & Agent Engineer · ML/NLP · speech
 
-I design self-driving AI systems that **research, implement, test, and iterate until they converge** — grounded in the [Ralph Wiggum loop](https://ghuntley.com/ralph/) and [Karpathy's Autoresearch](https://github.com/karpathy/autoresearch) (write → execute → evaluate → keep/discard). My focus is making LLM agents ship evidence, not assumptions.
+I build infrastructure for LLM agents and speech systems, and I make architecture decisions by measurement rather than conviction.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-paulohenriquevn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/paulohenriquevn)
 [![npm](https://img.shields.io/badge/npm-@paulohenriquevn-CB3837?style=flat&logo=npm&logoColor=white)](https://www.npmjs.com/~paulohenriquevn)
-![Profile views](https://komarev.com/ghpvc/?username=paulohenriquevn&color=blueviolet&style=flat)
 
 </div>
 
 ---
 
-## 🧪 Autonomous Loops for Claude Code
+## Building now
 
-A family of self-referential AI laboratories. Point each one at a problem; it runs a systematic, gated pipeline and produces an evidence-backed report — no hand-holding between phases.
+### [theokit](https://github.com/usetheokit/theokit) — the full-stack TypeScript framework for AI agents
+An agent is a file: drop it in `agents/` and it gets an HTTP route, token streaming, human-in-the-loop approvals and a typed client. React pages with SSR, OAuth sessions, Postgres, WebSockets, cron and nine deploy targets. Apache-2.0, published on npm.
+
+### [theokit-sdk](https://github.com/usetheokit/theokit-sdk) — an agent runtime you own end to end
+`Agent.create` / `prompt` / `stream` / `resume`, 43 LLM providers on your own keys, MCP with OAuth PKCE, subagents, workflows, evals, memory, and a bubblewrap + seccomp kernel sandbox for tool execution.
+
+---
+
+## Speech & NLP
 
 | Project | What it does |
 |---|---|
-| [**cycle**](https://github.com/paulohenriquevn/cycle) | A 6+1 pipeline taking a feature from **idea → discovery → plan → code → merge**, with hard gates, audit trails, and runtime hooks. |
-| [**review-deep-loop**](https://github.com/paulohenriquevn/review-deep-loop) | 8-phase deep software audit — architecture, completeness, code quality, security, ops — with a ranked, evidence-backed findings report. |
-| [**academic-research-loop**](https://github.com/paulohenriquevn/academic-research-loop) | Publication-quality literature surveys with **PRISMA** methodology, evidence matrices, SVG figures, LaTeX export, and a working POC. |
-| [**algorithmic-research-loop**](https://github.com/paulohenriquevn/algorithmic-research-loop) | Algorithmic R&D — explores known solutions, *invents* new ones, benchmarks with TDD, and validates Big-O empirically. |
-| [**golden-harvest-loop**](https://github.com/paulohenriquevn/golden-harvest-loop) | Golden Master Testing lab — extracts tests from a reference codebase and validates behavioral equivalence via differential testing. |
-| [**loop-deep-pentest**](https://github.com/paulohenriquevn/pentest-deep-loop) | Authorized 7-phase pentest lab following the **OWASP Testing Guide**, producing CVSS-scored findings with remediation plans. |
-| [**sota-validation-loop**](https://github.com/paulohenriquevn/sota-validation-loop) | Evolves a project's features toward evidence-based **SOTA** thresholds via TDD (RED/GREEN) and keep/discard iteration. |
+| [**jvscribe**](https://github.com/paulohenriquevn/jvscribe) | Real-time Brazilian Portuguese transcription **on CPU**. Architecture chosen by measurement and recorded in ADRs: Zipformer-CTC (64M, int8) with an auxiliary phoneme head, 27.49% WER on the evaluation set. |
+| [**talkex**](https://github.com/paulohenriquevn/talkex) | Conversation-intelligence engine for call centers: hybrid lexical + semantic search, supervised classification and a deterministic rule DSL. |
+| [**autofeat**](https://github.com/paulohenriquevn/autofeat) | Automated feature engineering for ML pipelines, published on PyPI as `cafe-autofe`. |
 
----
-
-## 🚀 Tools & Platforms
+## Developer tools
 
 | Project | What it does |
 |---|---|
-| [**m2js**](https://github.com/paulohenriquevn/m2js) | CLI + VS Code extension that turns TypeScript/JavaScript into **LLM-optimized Markdown** (60–90% token reduction) with smart dead-code detection. Published on [npm](https://www.npmjs.com/~paulohenriquevn). |
-| [**talkex**](https://github.com/paulohenriquevn/talkex) | Scalable **NLP conversation-intelligence engine** for call centers — hybrid lexical search, semantic embeddings, supervised classification, and a deterministic rule DSL. |
-| [**autofeat (CAFE)**](https://github.com/paulohenriquevn/autofeat) | Automated feature-engineering system for ML pipelines — preprocessing, feature generation, and performance validation end to end. Published on PyPI as `cafe-autofe`. |
-| [**specs**](https://github.com/paulohenriquevn/specs) | *Code Agents SOTA* — deep-research course and knowledge base for building state-of-the-art code agents (22 design patterns, context & memory engineering). |
+| [**gitsafety**](https://github.com/paulohenriquevn/gitsafety) | Stops you from committing an API key — git repos, loose folders and Jupyter notebooks. On PyPI. |
+| [**m2js**](https://github.com/paulohenriquevn/m2js) | CLI + VS Code extension that turns TypeScript/JavaScript into LLM-optimized Markdown. On npm. |
+| [**loop-pentest-audit**](https://github.com/paulohenriquevn/loop-pentest-audit) | Autonomous 7-phase penetration-testing lab for Claude Code (OWASP Testing Guide), producing CVSS-scored findings. |
 
 ---
 
-## 🛠️ Tech Stack
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
-![Shell](https://img.shields.io/badge/Shell-4EAA25?style=flat&logo=gnubash&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
-![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat&logo=apachekafka&logoColor=white)
-![Claude](https://img.shields.io/badge/Claude%20Code-D97757?style=flat&logo=anthropic&logoColor=white)
-
----
-
-<div align="center">
-
-![Paulo's GitHub stats](https://github-readme-stats.vercel.app/api?username=paulohenriquevn&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=paulohenriquevn&layout=compact&theme=tokyonight&hide_border=true)
-
-</div>
+**Stack:** TypeScript · Python · PyTorch · Postgres · Claude / OpenAI / open-weight models · MCP · Docker
