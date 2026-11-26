@@ -12,6 +12,13 @@ I build AI agents, speech systems and the infrastructure they run on, and I make
 
 </div>
 
+## Building now
+
+| Project | What it does |
+|---|---|
+| [**loopzero**](https://github.com/getloopscale/loopzero) | Full-stack TypeScript framework for AI agents. An agent is a file: drop it in `agents/` and it gets an HTTP route, token streaming, human-in-the-loop approvals and a typed client. React pages with file routing and SSR, OAuth sessions, Postgres, WebSockets, cron and nine deploy targets. Apache-2.0. |
+| [**loopzero-sdk**](https://github.com/getloopscale/loopzero-sdk) | TypeScript SDK and agent runtime you own end to end: `Agent.create`, `prompt`, `stream` and `resume`, 43 LLM providers on your own keys, MCP with OAuth PKCE, subagents, workflows, evals, memory, and a bubblewrap and seccomp kernel sandbox for tool execution. Apache-2.0. |
+
 ## Working on now
 
 | Project | What it does |
