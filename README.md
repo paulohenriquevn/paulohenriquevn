@@ -17,7 +17,7 @@ I build AI agents, speech systems and the infrastructure they run on, and I make
 | Project | What it does |
 |---|---|
 | [**aws-emulator**](https://github.com/paulohenriquevn/aws-emulator) | Fork of the AWS Emulator that runs a whole Terraform stack with no AWS account: RDS and ElastiCache start real servers in containers, each EKS cluster gets a control plane and nodes on kind, and a read-only web console lists what the emulator holds. Eight Terraform fixtures run on every pull request. Rust. |
-| [**aifactory**](https://github.com/paulohenriquevn/aifactory) | Software factory that turns a GitHub issue into a verified pull request. Coding agents work in cloud sandboxes, and the pull request opens only with green checks and the approval of an independent reviewer. TypeScript. |
+| [**aifactory**](https://github.com/getloopscale/aifactory) | Software factory that turns a GitHub issue into a verified pull request. Coding agents work in cloud sandboxes, and the pull request opens only with green checks and the approval of an independent reviewer. TypeScript. |
 
 ## Speech and NLP
 
