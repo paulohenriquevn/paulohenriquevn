@@ -2,9 +2,9 @@
 
 # Paulo Henrique Vieira
 
-### AI Engineer · LLM agents in production · Voice AI
+### Senior Software Engineer · LLM agents · Voice AI
 
-I build LLM agents, the runtimes and evaluation around them, and speech systems, and I make architecture decisions by measurement.
+Software engineer for more than 18 years. Today I build LLM agents, the runtimes and evaluation around them, and speech systems, as open-source and research projects, and I make architecture decisions by measurement.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-paulohenriquevn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/paulohenriquevn)
 [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-paulohenriquevn-FFD21E?style=flat&logo=huggingface&logoColor=black)](https://huggingface.co/paulohenriquevn)
